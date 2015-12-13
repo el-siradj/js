@@ -1,3 +1,4 @@
+<script type='text/javascript' >
    $(&quot;.contact-button a&quot;).click(function() {
         var e = $(&quot;.contact-sec&quot;);
         if (e.is(&quot;:hidden&quot;)) {
@@ -20,3 +21,4 @@
         $(&quot;.contact-sec&quot;).removeClass(&quot;contact-show&quot;);
         return false
     });
+</script>
